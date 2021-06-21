@@ -47,3 +47,13 @@ nav ul li {
     display: flex;
     margin-top: 180px;
 }
+P{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}  
+#scholarship-text {
+    padding-left: 20px;
+}
