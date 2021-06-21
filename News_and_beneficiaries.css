@@ -1,0 +1,19 @@
+.Rectangle-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7BD052;
+    flex-direction: row;;
+}
+#header {
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+#text {
+    display: inline-flex;
+    inline-size: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-top: 1.5%;
+}
