@@ -3,6 +3,12 @@ nav {
     justify-content: space-between;
     margin-right: 2%;
 }
+#nav {
+    background-color: 7BD052;
+}
+div {
+    display: block;
+}
 ul {
     display: block;
     list-style-type: disc;
@@ -12,4 +18,9 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 3px;
 }
