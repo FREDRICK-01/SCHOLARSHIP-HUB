@@ -1,13 +1,32 @@
+body {
+    background-image: url(./assets/home-assets/scholarship\ image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    display: block;
+    margin: 8px;
+}
 nav {
     display: flex;
     justify-content: space-between;
     margin-right: 2%;
 }
 #nav {
-    background-color: 7BD052;
+    background-color: #7BD052;
 }
 div {
     display: block;
+}
+p {
+    margin-left: 2%;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 ul {
     display: block;
