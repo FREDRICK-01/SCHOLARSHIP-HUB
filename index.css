@@ -11,13 +11,53 @@ body {
     display: block;
     margin: 8px;
 }
-nav {
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7BD052;
+    height: 80px;
+
+}
+nav >p{
+    padding-left: 2%;
+    text-transform: uppercase;
+    display: block;
+    padding: 18px;
+    
+}
+
+nav div{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+nav a{
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(0, 0, 0, 1);
+}
+
+nav>div>p>a:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(30, 130, 76, 0.678);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* nav {
     display: flex;
     justify-content: space-between;
     margin-right: 2%;
 }
 #nav {
-    background-color: #7BD052;
+    background-color: #7BD052; */
 }
 div {
     display: block;
@@ -32,7 +72,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-ul {
+/* ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -40,16 +80,16 @@ ul {
     margin-inline-start: 0px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    padding-inline-start: 40px; */
 }
-nav ul li {
-    list-style: none;
-    display: inline;
-    padding-right: 3px;
+/* nav ul li { */
+    /* list-style: none; */
+    /* display: inline; */
+    /* padding-right: 3px; */
 }
 #scholarship-details {
     display: flex;
-    margin-top: 400px;
+    margin-top: 800px;
 }
 P{
     display: block;
@@ -65,3 +105,61 @@ h1 {
     color: yellowgreen;
     align-items: center;
 }
+ footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7BD052;
+    text-align: left;
+   
+}
+
+ul{
+    list-style-type: none;
+}
+
+#footer-part2{
+    width: 25%;
+}
+
+#subscribe{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#subscribe input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+    margin-right: 10%;
+
+}
+
+#subscribe button{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 5px;
+    background-color: #D69EDB;
+}
+#footer-part3 li {
+    font-size: smaller;
+    justify-content: space-around;
+    padding: 5px;
+    
+    
+  
+}
+
+#footer-part3 img{
+   width: 20px;
+   height: 20px;
+ 
+    
+} 
