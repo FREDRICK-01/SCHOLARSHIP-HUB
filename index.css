@@ -72,6 +72,7 @@ p {
 #scholarship-details {
     display: flex;
     margin-top: 600px;
+    color: black;
 }
 P{
     display: block;
@@ -84,7 +85,7 @@ P{
     padding-left: 20px;
 }
 h1 {
-    color: yellowgreen;
+    color: darkgreen;
     align-items: center;
 }
  footer{
