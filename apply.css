@@ -1,0 +1,63 @@
+
+
+
+.application{
+    padding-left: 5%;
+    width: 50%;
+ 
+
+}
+
+.application input{
+    padding: 10px;
+    margin: 2%;
+    background-color: rgba(238, 238, 238, 1);
+    border: 2px solid rgba(149, 165, 166, 1);
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    /* margin-right: 10%; */
+}
+
+#names{
+   width: 100%;
+   display: flex;
+}
+
+#names input{
+    width: 50%;
+    display: flex;
+    
+   
+}
+
+.application-items{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+#next{
+    background-color: green;
+    border-radius: 4px;
+    padding: 1%;
+    width: 70px;
+    font-size: medium;
+    color: white;
+    margin-left: 86%;
+    margin-top: 2%;
+ 
+}
+
+.main{
+    display: flex;
+}
+
+#graduads{
+    width: 50%;
+    height: 100%;
+    
+}
