@@ -16,6 +16,7 @@ nav{
     justify-content: space-between;
     background-color: #7BD052;
     height: 80px;
+    
 
 }
 nav >p{
@@ -23,6 +24,7 @@ nav >p{
     text-transform: uppercase;
     display: block;
     padding: 18px;
+    
     
 }
 
