@@ -60,7 +60,7 @@ nav>div>p>a:hover{
 }
 #nav {
     background-color: #7BD052; */
-}
+
 div {
     display: block;
 }
@@ -83,12 +83,10 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px; */
-}
 /* nav ul li { */
     /* list-style: none; */
     /* display: inline; */
     /* padding-right: 3px; */
-}
 #scholarship-details {
     display: flex;
     margin-top: 800px;
