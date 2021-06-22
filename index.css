@@ -17,7 +17,6 @@ nav{
     background-color: #7BD052;
     height: 80px;
     
-
 }
 nav >p{
     padding-left: 2%;
@@ -27,7 +26,11 @@ nav >p{
     
     
 }
-
+#logo {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left:0px ;
+}
 nav div{
     display: flex;
     justify-content: space-around;
@@ -53,14 +56,6 @@ nav>div>p>a:hover{
     color: rgba(255, 255, 255, 0.9);
 }
 
-/* nav {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 2%;
-}
-#nav {
-    background-color: #7BD052; */
-
 div {
     display: block;
 }
@@ -74,22 +69,9 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-/* ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px; */
-/* nav ul li { */
-    /* list-style: none; */
-    /* display: inline; */
-    /* padding-right: 3px; */
 #scholarship-details {
     display: flex;
-    margin-top: 700px;
+    margin-top: 600px;
 }
 P{
     display: block;
