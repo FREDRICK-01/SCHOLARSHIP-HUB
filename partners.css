@@ -67,6 +67,7 @@ nav>div>p>a:hover{
     background-color:#7BD052;
     opacity: 70%;
     margin-right: 10px;
+    padding: 20px;
     border-radius: 8px;
 }
 #safaricom{
@@ -105,7 +106,6 @@ nav>div>p>a:hover{
     width: 250px;
     height: 270px;
     padding-left: 1px;
-    
 }
 #safcomParagraph{
     padding-left: 30px;
@@ -125,11 +125,13 @@ button a:hover{
     font-size: 20px;
 }
 button{
-    font-size: 22px;
+    font-size: 18px;
     background-color: #28a745;
-    font-weight:unset;
     color: black;
-    margin-left: 80px;
+    margin-left: 80px 0 20px 0;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 8px;
 }
 footer{
     display: flex;
