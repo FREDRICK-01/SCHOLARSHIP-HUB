@@ -2,6 +2,10 @@ body {
     background-image: url(./assets/home-assets/scholarship\ image2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
+    background-attachment: fixed;
+
+
 }
 body {
     display: block;
@@ -45,7 +49,7 @@ nav ul li {
 }
 #scholarship-details {
     display: flex;
-    margin-top: 280px;
+    margin-top: 400px;
 }
 P{
     display: block;
@@ -58,5 +62,6 @@ P{
     padding-left: 20px;
 }
 h1 {
-    color: maroon;
+    color: yellowgreen;
+    align-items: center;
 }
