@@ -26,6 +26,10 @@
    display: flex;
 }
 
+#first-name{
+    margin-right: -10%;
+}
+
 #names input{
     width: 50%;
     display: flex;
@@ -40,10 +44,10 @@
 }
 
 
-#next{
+#next {
     background-color: green;
     border-radius: 4px;
-    padding: 1%;
+    padding: 0.3%;
     width: 70px;
     font-size: medium;
     color: white;
