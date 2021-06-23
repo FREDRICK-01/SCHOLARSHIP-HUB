@@ -33,14 +33,14 @@
 
                 <!-- username -->
                 <div class="form-control">
-                    <input id="txtUserName" type="text" placeholder="Student Name" name="username"/>
+                    <input id="txtUserName" type="text" placeholder="Student Name" name="username" required/>
                     <small>student name can't be blank!</small>
 
                 </div>
 
                 <!-- email -->
                 <div class="form-control">
-                    <input id="txtEmail" type="email" placeholder="Enter your Email"  name="email"/>
+                    <input id="txtEmail" type="email" placeholder="Enter your Email"  name="email" required/>
                     <small>email can't be blank!</small>
 
                 </div>
@@ -51,7 +51,7 @@
 
                 <!-- select Academic -->
                 <div class="form-control">
-                    <select name="academic-field" id="txtAcademicField">
+                    <select name="academic-field" id="txtAcademicField" required>
                         <option value="">Select the Country of Residence</option>
                         <option value="">Engineering</option>
                         <option value="">Computer Science</option>
@@ -66,7 +66,7 @@
 
                 <!-- country of Residence -->
                 <div class="form-control">
-                    <select name="residence-country" id="txtResidenceCountry">
+                    <select name="residence-country" id="txtResidenceCountry" required>
                         <option value="">Select the Country of Residence</option>
                         <option value="">Kenya</option>
                         <option value="">Uganda</option>
@@ -81,7 +81,7 @@
 
                 <!-- city -->
                 <div class="form-control">
-                    <input id="txtCity" type="text" placeholder="City"  name="city"/>
+                    <input id="txtCity" type="text" placeholder="City"  name="city" required/>
                     <small>field can't be blank!</small>
 
                 </div>
@@ -90,14 +90,14 @@
 
                 <!-- Address -->
                 <div class="form-control">
-                    <input id="txtAddress" type="text" placeholder="Address" name="address"/>
+                    <input id="txtAddress" type="text" placeholder="Address" name="address" required/>
                     <small>field can't be blank!</small>
 
                 </div>
 
                  <!-- next button -->
                 <div>
-                    <button id="next" onclick="document.location='apply2.html'">Next</button>
+                    <button type="submit" id="next" onclick="document.location='apply2.html'">Next</button>
                 </div>
 
 

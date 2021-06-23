@@ -23,6 +23,7 @@ function validateInput(){
     //check if username is empty
     if(userName.value.trim()===""){
         onError(userName, "Student Name cannot be empty!!!");
+        
 
         
     }else{
