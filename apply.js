@@ -4,134 +4,76 @@ let academicField=document.getElementById("txtAcademicField");
 let residenceCountry=document.getElementById("txtResidenceCountry");
 let city=document.getElementById("txtCity");
 let address=document.getElementById("txtAddress");
-
-
-//page 2 - apply2 ============================
-
-let phoneNumber=document.getElementById("txtPhoneNumber");
-let middleName=document.getElementById("txtMiddleName");
-let dateOfBirth=document.getElementById("txtDateOfBirth");
-let primaryLanguage=document.getElementById("txtPrimaryLanguage");
-let prefferedUni=document.getElementById("txtPrefferedUni");
-
-
 let form=document.querySelector("form");
 
-
-
 function validateInput(){
-    //check if username is empty
-    if(userName.value.trim()===""){
-        onError(userName, "Student Name cannot be empty!!!");
-        
 
-        
+    //check user name
+    if(userName.value.trim()===""){
+        onError(userName, "Username cannot be empty");
+
     }else{
         onSuccess(userName);
-       
     }
 
-
-    //check if email is valid/ empty
+    //check email
     if(email.value.trim()===""){
-        onError(email, "Email cannot be empty!!!");
+        onError(eamil,"email cannot be empty");
 
+    }else{ 
+        if(!isValidEmail(email.value.trim())){
+            onError(email, "Email is not valid")
         
     }else{
-        if(!isValidEmail(email.value.trim())){
-            onError(email, "Email invalid!!");
-        }else{
-            onSuccess(email);
-        }
-       
+        onSuccess(email);
     }
+}
 
 
-    //check academic field not empty
-
+    //check academic field
     if(academicField.value.trim()===""){
-        onError(academicField, "Academic Field cannot be empty!!!");
+        onError(academicField, "");
 
-        
     }else{
         onSuccess(academicField);
-       
     }
 
 
 
-
-
-
-
-    //check residence country not empty
-
+    //check country
     if(residenceCountry.value.trim()===""){
-        onError(residenceCountry, "Country cannot be empty!!!");
+        onError(residenceCountry, "");
 
-        
     }else{
         onSuccess(residenceCountry);
-       
     }
 
 
 
-
-
-    //check  city not empty
+    //check city
     if(city.value.trim()===""){
-        onError(city, "City cannot be empty!!!");
+        onError(city, "Username cannot be empty");
 
-        
     }else{
         onSuccess(city);
-       
     }
 
 
-
-
-
-    //check adress not empty
+    //check address
     if(address.value.trim()===""){
-        onError(address, "Address cannot be empty!!!");
+        onError(address, "Username cannot be empty");
 
-        
     }else{
         onSuccess(address);
-       
+    }
+    if(userName,email,city,address.value.trim() != ''){
+        window.location.href = "apply2.html";
+    
     }
     
-
-
-    //==============================================================
-    //check phone number
-    if(phoneNumber.value.trim()===""){
-        onError(phoneNumber, "Address cannot be empty!!!");
-
-        
-    }else{
-        onSuccess(phoneNumber);
-       
-    }
-
-
-    //check middle name
-
-    // check date of birth
-
-
-
-    //check primary language
-
-
-    //check preffered uni
-
-
-
-   
 }
+
+
 
 document.querySelector("button")
 .addEventListener("click", (event)=>{
@@ -153,7 +95,7 @@ function onSuccess(input){
 
 
 
-//erro function
+//error function
 function onError(input,message){
     let parent=input.parentElement;
     let messageEle=parent.querySelector("small");
@@ -165,8 +107,11 @@ function onError(input,message){
 
 
 
+
+
 //valid email
 function isValidEmail(email){
     return /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 
 }
+

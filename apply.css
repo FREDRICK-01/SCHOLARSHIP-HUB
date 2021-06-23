@@ -104,6 +104,17 @@
 .form-control.error input{
     border: 2px solid red;
 }
+
+
+.form-control.success select{
+    border: 2px solid rgb(60, 238, 60);
+}
+
+.form-control.error select{
+    border: 2px solid rgb(60, 238, 60);
+}
+
+
 #next {
     background-color: green;
     border-radius: 4px;
