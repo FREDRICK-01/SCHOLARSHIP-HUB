@@ -1,0 +1,196 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7BD052;
+    height: 80px;
+
+}
+nav >p{
+    padding-left: 2%;
+    text-transform: uppercase;
+    display: block;
+    padding: 18px;
+    
+}
+
+nav div{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+nav a{
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(0, 0, 0, 1);
+}
+
+nav>div>p>a:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(30, 130, 76, 0.678);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* container starts here */
+#container{
+    /* background-color:bisque; */
+}
+/* container ends here */
+/* Nav bar starts here */
+#nav-bar{
+    background-color: #7BD052;
+    padding-bottom: 30px;
+}
+
+
+/* Nav bar ends here */
+
+#scholarship{
+    text-align: center;
+    border:2px solid #28a745;
+    color: brown;
+    border-radius: 8px;
+    font-weight: bolder;
+    margin: 20px 500px 20px 730px;
+}
+#section-one{
+    display: flex;
+}
+#partners p{
+    background-color:#7BD052;
+    opacity: 70%;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+#safaricom{
+    display: flex;   
+    border:2px solid #28a745;
+    border-radius: 8px;
+    margin-left: 100px; 
+}
+
+#kra{
+    display: flex;
+    border:2px solid #28a745;
+    border-radius: 8px;
+    margin-left: 200px;
+}
+#section-two{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#kcb{
+    display: flex;
+    border:2px solid #28a745;
+    border-radius: 8px;
+    margin-left: 100px;
+}
+#KAA{
+    display: flex;
+    border:2px solid #28a745;
+    border-radius: 8px;
+    margin-left: 200px;
+}
+
+#partners img{
+    width: 250px;
+    height: 270px;
+    padding-left: 1px;
+}
+#safcomParagraph{
+    padding-left: 30px;
+}
+#KRAparagraph{
+    padding-left: 30px;
+}
+#KCBparagraph{
+    padding-left: 30px;
+}
+#KAAparagraph{
+    padding-left: 30px;
+}
+button a:hover{
+    background-color: yellowgreen;
+    color: red;
+    font-size: 20px;
+}
+button{
+    font-size: 18px;
+    background-color: #28a745;
+    color: black;
+    margin-left: 80px 0 20px 0;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 8px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7BD052;
+    text-align: left;
+   
+}
+
+ul{
+    list-style-type: none;
+}
+
+#footer-part2{
+    width: 25%;
+}
+
+#subscribe{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#subscribe input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+    margin-right: 10%;
+
+}
+
+#subscribe button{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 5px;
+    background-color: #D69EDB;
+}
+#footer-part3 li {
+    font-size: smaller;
+    justify-content: space-around;
+    padding: 5px;
+     
+}
+
+#footer-part3 img{
+   width: 20px;
+   height: 20px;
+ 
+    
+}
+
+#space{
+    color: black;
+    padding-left: 10px;
+}
