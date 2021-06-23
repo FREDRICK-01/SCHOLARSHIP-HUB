@@ -1,11 +1,10 @@
-div {
-    border: 1px dashed;
-}
+
 body {
     background-color:white;
 }
 .news {
     background: #D69EDB;
+    font-family: 'Stint Ultra Condensed', cursive;
 }
 nav{
     display: flex;
