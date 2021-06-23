@@ -1,13 +1,17 @@
-div {
-    border: 1px dashed;
+body {
+    background-image: url(./assets/home-assets/scholarship\ image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-attachment: fixed; 
+
+
 }
 body {
-    background-color:white;
-}
-.news {
-    background: #D69EDB;
-}
-nav{
+    display: block;
+    margin: 8px;
+ }
+ nav{
     display: flex;
     justify-content: space-between;
     background-color: #7BD052;
@@ -15,7 +19,7 @@ nav{
 }
 #logo {
     padding-top: 1px;
-    
+    margin-top: -8px;
 }
 nav >p{
     padding-left: 2%;
@@ -49,76 +53,40 @@ nav>div>p>a:hover{
     background: rgba(30, 130, 76, 0.678);
     color: rgba(255, 255, 255, 0.9);
 }
-.news {
-    text-align: center;
-    font-style: italic;
-    width: fit-content;
-}
-
-
-h2 {
-    text-align: center;
-    font-style: italic;
-}
-#first {
-    display: flex;
-    flex-direction: row;
-    width:100px;
-    
+div {
+    display: block;
 }
 p {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
+    margin-left: 2%;
 }
-.one {
-    padding-right: 80px;
-    width: fit-content;
-    list-style: none;
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#scholarship-details {
+    display: flex;
+    margin-top: 600px;
+    color: black;
+    margin-bottom: 100px;
+}
+P{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}  
+#scholarship-text {
     padding-left: 20px;
 }
-.five {
-    padding-right: 190px;
+h1 {
+    color: darkgreen;
+    align-items: center;
 }
-.two {
-    padding-right: 190px;
-    image-resolution: 100%;
-}
-#second {
-    display: flex;
-    flex-direction: row;
-    padding: 1%;
-    width: 25%;
-    
-}
-#one  {
-    padding-right: 30px;
-}
-#two {
-    padding-right: 1px;
-}
-#third {
-    display: flex;
-    flex-direction:row;
-    width: 25%;
-
-}
-#four {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#One {
-    padding-right: 100px;
-}
-#Two {
-    padding-right: 100px;
-}
-#Three {
-    padding-right: 100px;
-}
-#first {
-    list-style: none;
-}
-footer{
+ footer{
     display: flex;
     justify-content: space-around;
     background-color: #7BD052;
@@ -129,6 +97,7 @@ footer{
 ul{
     list-style-type: none;
 }
+
 #footer-part2{
     width: 25%;
 }
@@ -174,10 +143,4 @@ ul{
    height: 20px;
  
     
-}
-
-
-#space{
-    color: black;
-    padding-left: 10px;
-}
+} 

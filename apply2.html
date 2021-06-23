@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Application</title>
+    <link rel="stylesheet" href="scholarship.css">
+    <link rel="stylesheet" href="apply.css">
+    <link rel="stylesheet" href="apply2.css">
+</head>
+<body>
+    <nav>
+        <p>Logo</p>
+        <div>
+            <p><a href="#home">Home</a></p>
+            <p><a href="scholarship.html">Scholarships</a></p>
+            <p><a href="#partners">Partners</a></p>
+            <p><a href="#news-blogs">News & Beneficiaries</a></p>
+           
+        </div>
+
+    </nav>
+   
+
+    <div class="main">
+        <div class="application">
+            <div class="header">
+                <h2>SCHOLARSHIP APPLICATION</h2>
+
+            </div>
+            
+
+            <form class="form">
+
+                <!-- phone number -->
+                <div class="form-control">
+                    <input id="txtPhoneNumber" type="text" placeholder="Phone Number" name="phone-number"/>
+                    <small> Phone number can't be blank!</small>
+
+                </div>
+
+                <!-- middle name -->
+                <div class="form-control">
+                    <input id="txtMiddleName" type="text" placeholder="Middle Name"  name="middle-name"/>
+                    <small>Middle Name can't be blank!</small>
+
+                </div>
+
+
+
+
+
+                <!-- Date of Birth -->
+                <div class="form-control">
+                    <label> Date Of Birth</label>
+                    <input id="txtDateOfBirth" type="date" placeholder="Select Date of Birth" name="date-of-birth"/>
+                    <small>field can't be blank!</small>
+
+                </div>
+
+
+
+
+                <!-- Primary language -->
+                <div class="form-control">
+                    <select name="preffered-language" id="txtPrimaryLanguage">
+                        <option value="">Select Preffered Language</option>
+                        <option value="">English</option>
+                        <option value="">Swahili</option>
+                        <option value="">French</option>
+                        <option value="">German</option>
+                    </select>
+                    <small> field can't be blank!</small>
+
+                </div>
+
+
+
+                <!-- city -->
+                <div class="form-control">
+                    <select name="preffered-uni" id="txtPrefferedUni">
+                        <option value="">Select Your Preffered University/College</option>
+                        <option value="">Jomo Kenyatta University of Agriculture and Technology (JKUAT)</option>
+                        <option value="">Havard</option>
+                        <option value="">Oxford University</option>
+                        <option value="">Nairobi university</option>
+                    </select>
+                    <small>field can't be blank!</small>
+
+                </div>
+
+
+
+                <!-- Address -->
+                <div class="form-control">
+                    <input id="txtAddress" type="text" placeholder="Address" name="address"/>
+                    <small>field can't be blank!</small>
+
+                </div>
+
+                 <!-- back and Submit button -->
+                 <div>
+                    <button id="back" onclick="document.location='apply.html'">Back</button>
+                    <button id="submit" onclick="document.location='application_success.html'">Submit</button>
+                 </div>
+                
+
+
+            </form>
+
+           
+            
+
+           
+
+        </div>
+
+         <!-- </div>
+            <button id="back" onclick="document.location='apply.html'">Back</button>
+            <button id="submit">Submit</button> -->
+
+        <div id="graduads">
+            <img src="./assets/scholarships-assets/schorships-assets/smile-graduand.png" alt="">
+
+            <p>By completing this form I hereby confirm that all the details
+                provided above are true as per requirement. I also confirm That
+                I agree with the Scholarship Hub policy that I will be ready to
+                receive notifications and updates via email, calls, or text for 
+                my application status.
+            </p>
+
+        </div>
+
+
+
+    </div>
+
+    
+   <script src="apply.js"></script> 
+</body>
+</html>
