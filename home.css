@@ -10,13 +10,16 @@ body {
 body {
     display: block;
     margin: 8px;
-}
-nav{
+ }
+ nav{
     display: flex;
     justify-content: space-between;
     background-color: #7BD052;
     height: 80px;
-    
+}
+#logo {
+    padding-top: 1px;
+    margin-top: -8px;
 }
 nav >p{
     padding-left: 2%;
@@ -24,13 +27,8 @@ nav >p{
     display: block;
     padding: 18px;
     
-    
 }
-#logo {
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left:0px ;
-}
+
 nav div{
     display: flex;
     justify-content: space-around;
@@ -55,6 +53,58 @@ nav>div>p>a:hover{
     background: rgba(30, 130, 76, 0.678);
     color: rgba(255, 255, 255, 0.9);
 }
+/*nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7BD052;
+    height: 80px;
+    
+}
+nav >p{
+    padding-left: 2%;
+    text-transform: uppercase;
+    display: block;
+    padding: 18px;
+    
+    
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+ #nav a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 8px;
+} 
+nav div{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+nav a{
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(0, 0, 0, 1);
+}
+
+nav>div>p>a:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(30, 130, 76, 0.678);
+    color: rgba(255, 255, 255, 0.9);
+} */
 
 div {
     display: block;
