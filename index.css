@@ -73,6 +73,7 @@ p {
     display: flex;
     margin-top: 600px;
     color: black;
+    margin-bottom: 100px;
 }
 P{
     display: block;
