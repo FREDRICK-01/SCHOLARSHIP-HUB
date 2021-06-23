@@ -1,0 +1,136 @@
+
+
+
+/* .application{
+    padding-left: 5%;
+    width: 50%;
+ 
+
+}
+
+.application input{
+    padding: 10px;
+    margin: 2%;
+    background-color: rgba(238, 238, 238, 1);
+    border: 2px solid rgba(149, 165, 166, 1);
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    /* margin-right: 10%;
+}
+
+#names{
+   width: 100%;
+   display: flex;
+}
+
+#first-name{
+    margin-right: -10%;
+}
+
+#names input{
+    width: 50%;
+    display: flex;
+    
+   
+}
+
+.application-items{
+    display: flex;
+    flex-direction: column;
+  
+} */
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.application{
+    padding-left: 5%;
+    width: 50%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+.header{
+    background-color: rgba(171, 183, 183, 0.5);
+    padding: 1px 1px;
+    margin-top: 5%;
+    border-radius: 7px;
+    text-align: center;
+    
+}
+
+
+.form{
+    padding: 20px;
+    margin-left: -3%;
+}
+
+
+.form-control{
+    
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.form-control input, select{
+    background-color: rgb(231, 227, 227);
+    padding: 7px;
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid rgba(108, 122, 137, 1);
+}
+
+.form-control small{
+    visibility: hidden;
+    color: red;
+}
+
+
+.form-control.success input{
+    border: 2px solid rgb(60, 238, 60);
+}
+
+.form-control.error input{
+    border: 2px solid red;
+}
+#next {
+    background-color: green;
+    border-radius: 4px;
+    padding: 0.3%;
+    width: 70px;
+    font-size: 16px;
+    color: white;
+    margin-left: 86%;
+    margin-top: 2%;
+    font-family: inherit;
+ 
+}
+
+.main{
+    display: flex;
+}
+
+#graduads{
+    width: 50%;
+    height: 100%;
+    
+}
+
+
+
+/* Workig on the form control */
+
+.application.success input{
+    border-color: #2ecc71;
+}
