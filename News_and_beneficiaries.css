@@ -4,7 +4,9 @@ div {
 body {
     background-color:white;
 }
-
+.news {
+    background: #D69EDB;
+}
 nav{
     display: flex;
     justify-content: space-between;
