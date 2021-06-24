@@ -12,7 +12,7 @@ function validateInput(){
 
     //check Phone Number
     if(phoneNumber.value.trim()===""){
-        onError(phoneNumber, "field cannot be empty");
+        onError(phoneNumber, "field cannot be blank");
 
     }else{
         onSuccess(phoneNumber);
@@ -20,7 +20,7 @@ function validateInput(){
 
     //check middle Name
     if(middleName.value.trim()===""){
-        onError(middleName,"field cannot be empty");
+        onError(middleName,"field cannot be blank");
 
     }else{ 
         onSuccess(middleName);
@@ -30,23 +30,32 @@ function validateInput(){
 
     //check date of birth
     if(dateOfBirth.value.trim()===""){
-        onError(dateOfBirth, "");
+        onError(dateOfBirth, "field cannot be blank");
 
     }else{
         onSuccess(dateOfBirth);
+    }
+     
+    //language
+    if(primaryLanguage.value.trim()===""){
+        onError(primaryLanguage,"field cannot be blank");
+
+    }else{ 
+        onSuccess(primaryLanguage);
+        
     }
 
 
 
     //check preffered University
     if(prefferedUni.value.trim()===""){
-        onError(prefferedUni, "");
+        onError(prefferedUni, "field can't be blank");
 
     }else{
         onSuccess(prefferedUni);
     }
 
-    if(phoneNumber,middleName.value.trim() != ''){
+    if(phoneNumber,middleName,dateOfBirth,prefferedUni.value.trim() != ''){
         window.location.href = "application_success.html";
     
     }

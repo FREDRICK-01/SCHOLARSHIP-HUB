@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scholarship Application</title>
     <link rel="stylesheet" href="scholarship.css">
-    <link rel="stylesheet" href="apply.css">
     <link rel="stylesheet" href="apply2.css">
 </head>
 <body>
     <nav>
-        <p>Logo</p>
+        <div id="logo-resize">
+            <p >
+                <img src="./assets/schorships-assets/logo.png" alt="" width="100px" height="100px">
+            </p>
+        </div>
         <div>
             <p><a href="#home">Home</a></p>
             <p><a href="scholarship.html">Scholarships</a></p>
@@ -35,14 +38,14 @@
 
                 <!-- phone number -->
                 <div class="form-control">
-                    <input id="txtPhoneNumber" type="text" placeholder="Phone Number" name="phone-number"/>
+                    <input id="txtPhoneNumber" type="text" placeholder="Phone Number"/>
                     <small> Phone number can't be blank!</small>
 
                 </div>
 
                 <!-- middle name -->
                 <div class="form-control">
-                    <input id="txtMiddleName" type="text" placeholder="Middle Name"  name="middle-name"/>
+                    <input id="txtMiddleName" type="text" placeholder="Middle Name"  />
                     <small>Middle Name can't be blank!</small>
 
                 </div>
@@ -52,25 +55,20 @@
 
 
                 <!-- Date of Birth -->
-                <div class="form-control">
+                  <div class="form-control">
                     <label> Date Of Birth</label>
-                    <input id="txtDateOfBirth" type="date" placeholder="Select Date of Birth" name="date-of-birth"/>
+                    <input id="txtDateOfBirth" type="date" placeholder="Select Date of Birth" />
                     <small>field can't be blank!</small>
+                 </div>
 
-                </div>
+              
 
 
 
 
                 <!-- Primary language -->
                 <div class="form-control">
-                    <select name="preffered-language" id="txtPrimaryLanguage">
-                        <option value="">Select Preffered Language</option>
-                        <option value="">English</option>
-                        <option value="">Swahili</option>
-                        <option value="">French</option>
-                        <option value="">German</option>
-                    </select>
+                    <input id="txtPrimaryLanguage" type="text" placeholder="Enter Your Language of Communication" />
                     <small> field can't be blank!</small>
 
                 </div>
@@ -79,31 +77,24 @@
 
                 <!-- city -->
                 <div class="form-control">
-                    <select name="preffered-uni" id="txtPrefferedUni">
-                        <option value="">Select Your Preffered University/College</option>
-                        <option value="">Jomo Kenyatta University of Agriculture and Technology (JKUAT)</option>
-                        <option value="">Havard</option>
-                        <option value="">Oxford University</option>
-                        <option value="">Nairobi university</option>
-                    </select>
+                    <input id="txtPrefferedUni" type="text" placeholder="Enter Your Preferred University/College"/>
                     <small>field can't be blank!</small>
 
                 </div>
 
 
                  <!-- back and Submit button -->
-                 <div>
-                    <button id="back" onclick="document.location='apply.html'">Back</button>
-                    
-                 </div>
                  
-                 <div>
+                 <div class="form-control">
                      <button id="submit">Submit</button>
                     
                  </div>
 
 
             </form>
+            <div class="back-button">
+                    <button id="back" onclick="document.location='apply.html'">Back</button>
+             </div>
 
            
             
@@ -112,12 +103,10 @@
 
         </div>
 
-         <!-- </div>
-            <button id="back" onclick="document.location='apply.html'">Back</button>
-            <button id="submit">Submit</button> -->
+       
 
         <div id="graduads">
-            <img src="./assets/scholarships-assets/schorships-assets/smile-graduand.png" alt="">
+            <img src="./assets/schorships-assets/smile-graduand.png" alt="">
 
             <p>By completing this form I hereby confirm that all the details
                 provided above are true as per requirement. I also confirm That

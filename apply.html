@@ -10,7 +10,12 @@
 </head>
 <body>
     <nav>
-        <p>Logo</p>
+        <div id="logo-resize">
+            <p >
+                <img src="./assets/schorships-assets/logo.png" alt="" width="100px" height="100px">
+            </p>
+        </div>
+        
         <div>
             <p><a href="#home">Home</a></p>
             <p><a href="scholarship.html">Scholarships</a></p>
@@ -33,14 +38,14 @@
 
                 <!-- username -->
                 <div class="form-control">
-                    <input id="txtUserName" type="text" placeholder="Student Name" name="username"/>
+                    <input id="txtUserName" type="text" placeholder="Student Name" name="username" required/>
                     <small>student name can't be blank!</small>
 
                 </div>
 
                 <!-- email -->
                 <div class="form-control">
-                    <input id="txtEmail" type="email" placeholder="Enter your Email"  name="email"/>
+                    <input id="txtEmail" type="email" placeholder="Enter your Email"  name="email" required/>
                     <small>email can't be blank!</small>
 
                 </div>
@@ -51,12 +56,7 @@
 
                 <!-- select Academic -->
                 <div class="form-control ">
-                    <select name="academic-field" id="txtAcademicField">
-                        <option value="">Select Academic Field/Major</option>
-                        <option value="">Engineering</option>
-                        <option value="">Computer Science</option>
-                        <option value="">Mathematics</option>
-                    </select>
+                    <input type="text" id="txtAcademicField" placeholder="Enter your Academic Field (eg Engineering..)" required/>
                     <small>field can't be blank!</small>
 
                 </div>
@@ -66,13 +66,7 @@
 
                 <!-- country of Residence -->
                 <div class="form-control">
-                    <select name="residence-country" id="txtResidenceCountry">
-                        <option value="">Select the Country of Residence</option>
-                        <option value="">Kenya</option>
-                        <option value="">Uganda</option>
-                        <option value="">England</option>
-                    </select>
-                    
+                    <input type="text" id="txtResidenceCountry" placeholder="Enter Your Country of Residence" required/> 
                     <small> field can't be blank!</small>
 
                 </div>
@@ -81,7 +75,7 @@
 
                 <!-- city -->
                 <div class="form-control">
-                    <input id="txtCity" type="text" placeholder="City"  name="city"/>
+                    <input id="txtCity" type="text" placeholder="City"  name="city" required/>
                     <small>field can't be blank!</small>
 
                 </div>
@@ -114,7 +108,7 @@
 
 
         <div id="graduads">
-            <img src="./assets/scholarships-assets/schorships-assets/smile-graduand.png" alt="">
+            <img src="./assets/schorships-assets/smile-graduand.png" alt="">
 
             <p>By completing this form I hereby confirm that all the details
                 provided above are true as per requirement. I also confirm That
