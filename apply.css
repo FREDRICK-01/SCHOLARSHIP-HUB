@@ -1,51 +1,4 @@
 
-
-
-/* .application{
-    padding-left: 5%;
-    width: 50%;
- 
-
-}
-
-.application input{
-    padding: 10px;
-    margin: 2%;
-    background-color: rgba(238, 238, 238, 1);
-    border: 2px solid rgba(149, 165, 166, 1);
-    border-radius: 4px;
-    display: block;
-    font-family: inherit;
-    font-size: 14px;
-    padding: 10px;
-    /* margin-right: 10%;
-}
-
-#names{
-   width: 100%;
-   display: flex;
-}
-
-#first-name{
-    margin-right: -10%;
-}
-
-#names input{
-    width: 50%;
-    display: flex;
-    
-   
-}
-
-.application-items{
-    display: flex;
-    flex-direction: column;
-  
-} */
-
-
-
-
 *{
     box-sizing: border-box;
 }
@@ -106,13 +59,7 @@
 }
 
 
-.form-control.success select{
-    border: 2px solid rgb(60, 238, 60);
-}
 
-.form-control.error select{
-    border: 2px solid rgb(60, 238, 60);
-}
 
 
 #next {

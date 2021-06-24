@@ -18,7 +18,7 @@ function validateInput(){
 
     //check email
     if(email.value.trim()===""){
-        onError(eamil,"email cannot be empty");
+        onError(email,"email cannot be empty");
 
     }else{ 
         if(!isValidEmail(email.value.trim())){
@@ -32,7 +32,7 @@ function validateInput(){
 
     //check academic field
     if(academicField.value.trim()===""){
-        onError(academicField, "");
+        onError(academicField, "field cannot be empty");
 
     }else{
         onSuccess(academicField);
@@ -42,7 +42,7 @@ function validateInput(){
 
     //check country
     if(residenceCountry.value.trim()===""){
-        onError(residenceCountry, "");
+        onError(residenceCountry, "field cannot be blank");
 
     }else{
         onSuccess(residenceCountry);
@@ -52,7 +52,7 @@ function validateInput(){
 
     //check city
     if(city.value.trim()===""){
-        onError(city, "Username cannot be empty");
+        onError(city, "field cannot be blank");
 
     }else{
         onSuccess(city);
@@ -61,7 +61,7 @@ function validateInput(){
 
     //check address
     if(address.value.trim()===""){
-        onError(address, "Username cannot be empty");
+        onError(address, "field cannot be blank");
 
     }else{
         onSuccess(address);
